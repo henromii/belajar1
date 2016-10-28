@@ -14,5 +14,5 @@ $koneksi= mysqli_connect($server, $user, $password, $database);
 if($koneksi){
    echo"berhasil terkoneksi";
 }else{ 
-    echo "gagal ke koneksi";
+    echo "gagal tersambung koneksi";
 }
